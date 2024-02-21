@@ -9,17 +9,16 @@ h1, p {
 }
 
 div{
-    display: flex;
-    
-    background-color: aliceblue;
-    height: 231px;
+    display: block;
+    background-color: blueviolet;
+    margin: auto;
     width: 404px;
-    
-    
+   
 
 
 }
 img{
-    display: inline-block;
+    margin-bottom: -5px;
+   
     
 }
