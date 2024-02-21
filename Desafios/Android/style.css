@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-indent: 
+}
+@font-face {
+    font-family: "idroid";
+    src:
+      url("__MACOSX/fontes/idroid.otf") format("opentype");
+      
+  }
+p{
+    text-indent: 9px;
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px
+    
+}
+header{
+
+    background-image: linear-gradient(to bottom, #36C274, #1A5C38);
+   color: white;
+   padding: 15px 15px 0px 0px;  
+   margin: auto;
+ 
+   
+}
+header > nav > a:hover{
+    font-size: 17px;
+}
+
+.txt{
+    text-align: center;
+    padding: 12px;
+}
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    text-align: center ;
+    margin-left: 10px;
+    
+}
+header > nav{
+    padding: 10px;
+    text-align: unset;
+
+    
+}
+main{
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.342);
+}
+picture{
+    display: flex;
+    justify-content: center;
+}
+.esp{
+padding-top: 5px;
+padding-bottom: 5px;
+    
+}
+div{
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    margin-right: 100px;
+    text-decoration: underline;
+}
+footer > section > h3{
+    height: 40px;
+    width: 686px;
+    background-color: #2FA866;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;margin-left: -7px;
+
+}
+footer > section{
+    background-color: #C5EBD6;
+    padding: 0px 7px;
+}
+ul > li:hover{
+    font-size: 18px;
+    color: #36C274;
+}
+.fonte{
+    font-family: "idroid";
+}
+main > h1{
+    color: #15864a;
+    font-family: "idroid";
+}

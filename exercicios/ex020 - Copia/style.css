@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+a:active{
+    color: blueviolet;
+}
+div > ul {
+    display: none;
+    background-color: brown;
+}
+div:hover > ul {
+    display: block;
+    background-color: brown;
+    color: white;
+    width: 300px;
+}
+.esp::after {
+    content: "‹";
+}
+.esp::before{
+    content: "›";
+}
+

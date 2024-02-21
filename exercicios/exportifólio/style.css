@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+header{
+
+}
+nav{
+    
+    padding-top: 20px;
+    
+    
+
+    
+}
+nav > a{
+text-decoration: none;
+color: white;
+font-size: 2em;
+display: block;
+margin: auto;
+
+
+
+}

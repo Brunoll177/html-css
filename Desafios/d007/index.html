@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Style>
+        mark{
+background-color: blueviolet;
+        }
+    </Style>
+    <title>Desafio007</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você esta vendo a imagem completa? Experimente ampliar o tamanho da sua janela para <ins>aproveitar</ins> a melhor experiêcia.</p>
+    <a href="http://127.0.0.1:5500/paisagens/paisagem-g.png">
+        <abbr title="Paisagem">
+            <picture>
+                <source media="(max-width: 740px )" srcset="paisagens/paisagem-p.png" type="image/png">
+                <source media="(max-width: 1200px )" srcset="paisagens/paisagem-m.png" type="image/png">
+                <img src="paisagens/paisagem-g.png" alt="">
+            </picture>
+        </abbr>
+    </a>
+    <h2>Texte de link</h2>
+    <p>Clique <a href="pg2.html" target="_self" rel="next">aqui</a> para <mark>testar</mark></p>
+    
+</body>
+</html>

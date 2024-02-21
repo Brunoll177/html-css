@@ -1,0 +1,25 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+h1, p {
+    text-align: center;
+    
+}
+
+div{
+    display: flex;
+    
+    background-color: aliceblue;
+    height: 231px;
+    width: 404px;
+    
+    
+
+
+}
+img{
+    display: inline-block;
+    
+}
