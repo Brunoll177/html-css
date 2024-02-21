@@ -9,7 +9,7 @@ padding: 0px
 
 @font-face {
     font-family: 'idroid';
-    src: url(__MACOSX/fontes/idroid.otf) format(opentype);
+    src: url(fontes/idroid.otf) format(opentype);
 }
 
 
