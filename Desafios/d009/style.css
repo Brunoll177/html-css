@@ -5,20 +5,27 @@ padding: 0;
 }
 h1, p {
     text-align: center;
+    padding: 20px;
+    color: white;
     
 }
-
-div{
-    display: block;
+main{
+   
     background-color: blueviolet;
     margin: auto;
     width: 404px;
+
+
+}
+
+div{
+
    
 
 
 }
 img{
-    margin-bottom: -5px;
+ 
    
     
 }
