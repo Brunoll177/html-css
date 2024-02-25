@@ -5,24 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
         table{
             width: 400px;
+            height: 200px;
             border-collapse: collapse;
+          
+           
             
             
-        }
-        tr.line{
-background-color: blueviolet;
-
         }
         td{
             border: 1px solid black;
-            padding: 10px;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
             
         }
-        td#amr{
-            background-color: yellow;
+        td.numero{
+        text-align: end;
+
         }
+
 
 
     </style>
@@ -35,18 +41,18 @@ background-color: blueviolet;
         </tr>
     </table>
     <table>
-        <tr class="line">
+        <tr>
             <td>A2</td> <td>B2</td> <Td>C2</Td>
         </tr>
     </table>
     <table>
         <tr>
-            <td>A3</td> <td >B3</td> <Td>C3</Td>
+            <td>A3</td> <td>B3</td> <Td class="numero">C3</Td>
         </tr>
     </table>
     <table>
         <tr>
-            <td>A4</td> <td id="amr">B4</td> <Td>C4</Td>
+            <td>A4</td> <td>B4</td> <Td>C4</Td>
         </tr>
     </table>
 </body>
