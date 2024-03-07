@@ -6,21 +6,57 @@
 .container{
     background-color: yellow;
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-    gap: 200px;
-    align-items: center;
+    
+    height: 70vh;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    padding: 10px;
+    
     
    
 }
 .item{
 
     background-color: pink;
+    flex-grow: 1;
     
    
 }
 .item:nth-child(1){
-height: 100px;
-display: block;
+    height: 200px;   
+
+}
+.item:nth-child(2){
+
+    align-self:flex-end;
+    
+ }
+.item:nth-child(3){
+
+
+}
+.item:last-child{
+    flex-basis: ;
+    flex: 1 1 100%;
+}
+section{
+    width: 100vw;
+    height: 30vh;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#cen{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    align-self: center;
+    
+    
+
 }

@@ -1,0 +1,43 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(82, 82, 82);
+ 
+}
+
+header{
+    background-color: yellow;
+    height: 200px;
+    margin: 10px;
+}
+main{
+margin: 10px;
+
+}
+#principal{
+    background-color: red;
+    height: 500px;
+}
+#lateral1{
+    background-color: green;
+    height: 30px;
+}
+#lateral2{
+    background-color:blueviolet;
+    height: 30px;
+}
+footer{
+    background-color: blue;
+    height: 150px;
+    margin: 10px;
+}
+@media screen and (min-width:700px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
